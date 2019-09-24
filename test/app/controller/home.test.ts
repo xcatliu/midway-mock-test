@@ -1,5 +1,5 @@
 /* tslint:disable */
-const { app, assert } = require('midway-mock/bootstrap');
+import { app, assert } from 'midway-mock/bootstrap';
 /* tslint:enable */
 
 describe('test/app/controller/home.test.ts', () => {
