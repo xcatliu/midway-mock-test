@@ -18,11 +18,15 @@
     "stripInternal": true,
     "target": "ES2017"
   },
+  "include": [
+    "src/**/*.ts"
+  ],
   "exclude": [
     "app/public",
     "app/views",
     "dist",
     "node_modules*",
+    "test",
     "**/*.d.ts",
     "**/*.spec.ts"
   ]
